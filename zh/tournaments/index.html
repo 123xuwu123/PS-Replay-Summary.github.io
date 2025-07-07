@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按年份浏览比赛 - 宝可梦对战分析中心</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7; background-color: #f9f9f9; color: #333;
+            max-width: 800px; margin: 20px auto; padding: 0 20px;
+        }
+        .language-switcher {
+            background-color: #f0f2f5; color: #595959; text-align: center;
+            padding: 10px; font-size: 0.9em; border-radius: 8px; margin-bottom: 20px;
+        }
+        .language-switcher a { color: #1890ff; font-weight: bold; }
+        header, footer, main { margin-bottom: 25px; }
+        h1 { font-size: 2.2em; text-align: center; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back-link { display: inline-block; margin-top: 20px; font-weight: bold; }
+        footer { text-align: center; font-size: 0.9em; color: #888; margin-top: 40px; }
+
+        /* --- 这是您想要的、统一的“年份列表”新样式 --- */
+        .year-list {
+            list-style: none;
+            padding: 0;
+        }
+        .year-list li {
+            margin-bottom: 30px; /* 增加年份之间的垂直间距 */
+        }
+        .year-list a {
+            display: block; /* 让链接表现得像一个块级元素，可以占据整行 */
+            font-size: 1.8em; /* 模仿 h2 的字体大小 */
+            font-weight: 600; /* 模仿 h2 的粗细 */
+            color: #1a1a1a; /* 模仿 h2 的颜色 */
+            text-decoration: none; /* 去掉默认的链接下划线 */
+            border-bottom: 2px solid #e0e0e0; /* 添加底部的横线 */
+            padding-bottom: 8px; /* 文字和横线之间的间距 */
+            transition: color 0.2s ease; /* 添加平滑的颜色过渡效果 */
+        }
+        .year-list a:hover {
+            color: #007bff; /* 鼠标悬停时，文字变回链接的蓝色 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="language-switcher">
+        This site is also available in English. <a href="/en/tournaments/">Switch to English</a>
+    </div>
+
+    <header>
+        <h1>按年份浏览比赛</h1>
+    </header>
+
+    <main>
+        <ul class="year-list">
+            <li><a href="2025/">2025年</a></li>
+            <li><a href="2024/">2024年</a></li>
+            </ul>
+    </main>
+
+    <a href="/zh/" class="back-link">&larr; 返回主页</a>
+
+    <footer>
+        <p>&copy; 2025 虚无而已. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
